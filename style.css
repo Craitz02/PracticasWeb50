@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex:1;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: aqua;
+}
+
+
+footer{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: peru;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
